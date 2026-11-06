@@ -1,0 +1,12 @@
+{
+  "name": "click-script-extension",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "web-ext run --target chromium",
+    "build": "web-ext build --filename click-script.zip"
+  },
+  "devDependencies": {
+    "web-ext": "^8.9.0"
+  }
+}

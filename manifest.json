@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Click Script",
+  "version": "1.0.0",
+  "description": "Run a script in the active tab when the extension button is clicked.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Run script"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
