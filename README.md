@@ -4,7 +4,7 @@ A lightweight browser extension starter for running a custom JavaScript file in 
 
 ## Customize
 
-Edit `scripts/run.js` to change what runs in the active tab. The sample adds a blue outline to the page.
+Edit `scripts/run.js` to change the JavaScript that runs when you click the extension icon.
 
 ## Develop
 
